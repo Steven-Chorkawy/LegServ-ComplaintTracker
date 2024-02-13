@@ -4,33 +4,33 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "pageUrl": "https://claringtonnet.sharepoint.com/sites/LegislativeServices/_layouts/15/SPListForm.aspx",
       "formCustomizer": {
         "componentId": "47821f86-a0e1-40fd-afea-8de1b19890e7",
         "PageType": 8,
-        "RootFolder": "/sites/mySite/Lists/MyList",
+        "RootFolder": "/sites/LegislativeServices/Lists/FormalComplaints",
         "properties": {
           "sampleText": "Value"
         }
       }
     },
     "complaintTrackerCustomForms_NewForm": {
-      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "pageUrl": "https://claringtonnet.sharepoint.com/sites/LegislativeServices/_layouts/15/SPListForm.aspx",
       "formCustomizer": {
         "componentId": "47821f86-a0e1-40fd-afea-8de1b19890e7",
         "PageType": 8,
-        "RootFolder": "/sites/mySite/Lists/MyList",
+        "RootFolder": "/sites/LegislativeServices/Lists/FormalComplaints",
         "properties": {
           "sampleText": "Value"
         }
       }
     },
     "complaintTrackerCustomForms_EditForm": {
-      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "pageUrl": "https://claringtonnet.sharepoint.com/sites/LegislativeServices/_layouts/15/SPListForm.aspx",
       "formCustomizer": {
         "componentId": "47821f86-a0e1-40fd-afea-8de1b19890e7",
         "PageType": 6,
-        "RootFolder": "/sites/mySite/Lists/MyList",
+        "RootFolder": "/sites/LegislativeServices/Lists/FormalComplaints",
         "ID": 1,
         "properties": {
           "sampleText": "Value"
@@ -38,11 +38,11 @@
       }
     },
     "complaintTrackerCustomForms_ViewForm": {
-      "pageUrl": "https://{tenantDomain}/_layouts/15/SPListForm.aspx",
+      "pageUrl": "https://claringtonnet.sharepoint.com/sites/LegislativeServices/_layouts/15/SPListForm.aspx",
       "formCustomizer": {
         "componentId": "47821f86-a0e1-40fd-afea-8de1b19890e7",
         "PageType": 4,
-        "RootFolder": "/sites/mySite/Lists/MyList",
+        "RootFolder": "/sites/LegislativeServices/Lists/FormalComplaints",
         "ID": 1,
         "properties": {
           "sampleText": "Value"
