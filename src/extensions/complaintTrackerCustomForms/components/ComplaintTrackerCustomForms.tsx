@@ -2,7 +2,6 @@ import * as React from 'react';
 import { Log, FormDisplayMode } from '@microsoft/sp-core-library';
 import { FormCustomizerContext } from '@microsoft/sp-listview-extensibility';
 
-import styles from './ComplaintTrackerCustomForms.module.scss';
 
 export interface IComplaintTrackerCustomFormsProps {
   context: FormCustomizerContext;
@@ -23,6 +22,6 @@ export default class ComplaintTrackerCustomForms extends React.Component<ICompla
   }
 
   public render(): React.ReactElement<{}> {
-    return <div className={styles.complaintTrackerCustomForms} />;
+    return <div />;
   }
 }
