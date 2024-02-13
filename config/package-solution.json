@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "leg-serv-complaint-tracker-client-side-solution",
+    "id": "2854ef86-d585-49ee-8903-8956a9e7c2a8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "leg-serv-complaint-tracker description"
+      },
+      "longDescription": {
+        "default": "leg-serv-complaint-tracker description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "leg-serv-complaint-tracker Feature",
+        "description": "The feature that activates elements of the leg-serv-complaint-tracker solution.",
+        "id": "2a08ccab-3c07-457a-a3ab-6beb434acc2d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/leg-serv-complaint-tracker.sppkg"
+  }
+}

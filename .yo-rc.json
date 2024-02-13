@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "leg-serv-complaint-tracker",
+    "libraryId": "2854ef86-d585-49ee-8903-8956a9e7c2a8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "leg-serv-complaint-tracker",
+    "solutionShortDescription": "leg-serv-complaint-tracker description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FormCustomizer"
+  }
+}
