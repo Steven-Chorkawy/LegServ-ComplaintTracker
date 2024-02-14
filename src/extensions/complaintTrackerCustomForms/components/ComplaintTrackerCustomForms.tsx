@@ -22,6 +22,6 @@ export default class ComplaintTrackerCustomForms extends React.Component<ICompla
   }
 
   public render(): React.ReactElement<{}> {
-    return <div />;
+    return <div>hello world</div>;
   }
 }
