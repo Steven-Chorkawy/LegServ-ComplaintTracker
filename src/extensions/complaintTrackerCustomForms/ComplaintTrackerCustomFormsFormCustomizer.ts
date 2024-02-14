@@ -52,7 +52,7 @@ export default class ComplaintTrackerCustomFormsFormCustomizer
   }
 
   private _onSave = (): void => {
-
+    console.log('Final _onSave()');
     // You MUST call this.formSaved() after you save the form.
     this.formSaved();
   }

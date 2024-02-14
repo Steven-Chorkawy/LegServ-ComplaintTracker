@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Log, FormDisplayMode } from '@microsoft/sp-core-library';
 import { FormCustomizerContext } from '@microsoft/sp-listview-extensibility';
+import NewForm from './NewForm';
 
 
 export interface IComplaintTrackerCustomFormsProps {
@@ -22,6 +23,10 @@ export default class ComplaintTrackerCustomForms extends React.Component<ICompla
   }
 
   public render(): React.ReactElement<{}> {
+    if (this.props.displayMode === FormDisplayMode.New) {
+      return <NewForm {...this.props} />
+    }
+    
     return <div>hello world</div>;
   }
 }
